@@ -1,6 +1,7 @@
 import React,{PureComponent} from "react";
 import LandingPage from "./components/landingPage";
 import './styles/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends PureComponent {
   render() { 

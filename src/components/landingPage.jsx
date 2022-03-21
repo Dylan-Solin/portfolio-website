@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import '../styles/App.css';
-import { Slideshow } from './slideshow';
+import WebNavbar from './navbar';
+import Slideshow from './slideshow';
 
 class LandingPage extends PureComponent {
     constructor(props) {
@@ -9,10 +10,11 @@ class LandingPage extends PureComponent {
 
     state = {  }
 
-    render() { 
+    render() {
         return (
             <div id="landingPage">
-            <Slideshow/>
+               <WebNavbar/>
+               <Slideshow/>
             </div>
           );
     }
